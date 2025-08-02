@@ -1,0 +1,209 @@
+/* Wrapper for both sections */
+.resume-button-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: -15px;
+  margin-bottom: 60px;
+  /* margin-left: 20px; */
+  
+}
+
+.resume-btn {
+ 
+  padding: 10px 20px;
+  border: 2px solid #b65eff;
+  border-radius: 25px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.resume-btn:hover {
+  background-color: #b65eff;
+  color: #1c0c3b;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(182, 94, 255, 0.4);
+}
+
+.about-box {
+  /* border: 2px solid transparent; */
+ border: 2px solid #d946ef; 
+  padding: 20px;
+  border-radius: 16px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.about-box:hover {
+  border: 2px solid #d946ef; /* pink-violet border */
+  transform: scale(1.02);
+  box-shadow: 0 0 10px #d946ef33;
+}
+
+.about-box h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 27px;
+  
+  background: linear-gradient(90deg, #ff41bc, #b54cf2, #b54cf2, #ff41bc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text; /* For modern browsers */
+  color: transparent;
+}
+
+
+.about-box p {
+  margin: 0;
+  color: #fffdfd;
+  line-height: 1.6;
+  font-size: 20px;
+}
+
+
+.education-internship-wrapper {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap; /* Responsive on small screens */
+  margin-top: 4rem;
+}
+
+
+
+/* Shared box style for both education and internship */
+.education-section {
+  border: 2px solid #d946ef; 
+  background: linear-gradient(135deg, #684970, #794787);
+  color: #ffffff;
+   transition: all 0.5s ease;
+  padding: 0.7rem;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  width: 495px; /* Set equal width */
+}
+.education-section:hover{
+   border: 2px solid #d946ef; /* pink-violet border */
+  transform: scale(1.02);
+  box-shadow: 0 0 10px #d946ef33;
+}
+
+/* Heading style */
+.education-section h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Timeline marker */
+.education-card {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  margin-bottom: 0.5rem;
+  padding-left: 2.5rem;
+}
+
+/* Dot at the start of each timeline item */
+.dot {
+  width: 12px;
+  height: 12px;
+  background-color: #101011;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 11px;
+}
+
+.edu-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  width: 100%;
+}
+
+.edu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.edu-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0;
+}
+
+.edu-title.current {
+  color: #ffffff;
+}
+
+.edu-dates {
+  font-size: 0.9rem;
+  color: #c0c2d8;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.edu-dates::before {
+  content: '📅';
+  margin-right: 0.3rem;
+}
+
+.edu-content p {
+  font-size: 0.9rem;
+  color: #b8b9cc;
+  margin: 0.1rem 0;
+}
+
+/* Badges */
+.badge {
+  padding: 0.3rem 0.8rem;
+  font-size: 0.7rem;
+  border-radius: 9999px;
+  font-weight: 500;
+  margin-top: 0.3rem;
+  width: fit-content;
+}
+
+.current-badge {
+  background-color: #32704c;
+  color: #fff;
+}
+
+.completed-badge {
+  background-color: #7b1a6b;
+  color: #fff;
+}
+
+.view-badge {
+  background-color: #7b1a6b;
+  color: white;
+  text-decoration: none;
+  padding: 0.3rem 0.8rem;
+  font-size: 0.75rem;
+  border-radius: 9999px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.view-badge:hover {
+  background: #5a0f44;
+}
+
+
+.section {
+  padding: 4rem 2rem;
+  max-width: 1080px;
+  margin: auto;
+}

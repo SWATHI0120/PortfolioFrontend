@@ -1,0 +1,219 @@
+/* === Contact Section === */
+.contact-section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  color: #333;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* === Title & Subtitle === */
+.contact-title {
+  font-size: 2.5rem;
+  color: #e33890;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.contact-subtitle {
+  font-size: 1.1rem;
+  color: #efeaea;
+  margin-bottom: 40px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* === Layout: Two-column === */
+.contact-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-image {
+  flex: 1 1 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-image img {
+  width: 80%;
+  max-width: 250px; /* Adjust as needed */
+  height: auto;
+  object-fit: contain;
+}
+
+
+.contact-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* === Contact Form === */
+.contact-form {
+  flex: 1 1 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: left;
+}
+
+/* Form Field Labels (if needed later) */
+.contact-form label {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #333;
+}
+
+/* Inputs & Textarea */
+.contact-input,
+.contact-textarea {
+  padding: 14px 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  background: #fff;
+  color: #000;
+  outline: none;
+  transition: 0.3s ease;
+  width: 100%;
+}
+
+.contact-input:focus,
+.contact-textarea:focus {
+  border-color: #6d4cd3;
+  box-shadow: 0 0 0 2px rgba(109, 76, 211, 0.2);
+}
+
+.contact-input::placeholder,
+.contact-textarea::placeholder {
+  color: #999;
+  font-style: normal;
+}
+
+.contact-textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+/* Checkbox */
+.contact-checkbox {
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #eee8e8;
+}
+
+/* Button */
+.contact-button-submit {
+  padding: 14px;
+  border-radius: 30px;
+  border: none;
+   background: #751680; 
+  color: #f8f5f5;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+  margin-top: 10px;
+}
+
+.contact-button-submit:hover {
+  background: #a02c83;
+}
+
+/* === Toastify Styles === */
+.Toastify__toast--success {
+  background: #28a745;
+  color: white;
+  font-weight: bold;
+  font-family: 'Segoe UI', sans-serif;
+  border-radius: 8px;
+}
+
+.Toastify__toast--error {
+  background: #dc3545;
+  color: white;
+  font-weight: bold;
+  font-family: 'Segoe UI', sans-serif;
+  border-radius: 8px;
+}
+
+.Toastify__progress-bar {
+  background: #fff !important;
+}
+
+.Toastify__toast {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+/* .contact-section {
+  padding: 60px 20px;
+  max-width: 500px;
+  margin: 0 auto;
+  background: linear-gradient(135deg, #874097, #bd72ce);
+  border-radius: 20px;
+  color: #fff;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.contact-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.contact-subtitle {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  color: #fffbfb;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-input,
+.contact-textarea {
+  padding: 14px 1px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  background: #1e1e2f23;
+  color: #fff;
+  outline: none;
+}
+
+.contact-textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.contact-button {
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  background: linear-gradient(to right, #de25b0, #6e00ff);
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-button:hover {
+  opacity: 0.85;
+} */

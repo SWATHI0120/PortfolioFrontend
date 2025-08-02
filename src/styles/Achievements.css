@@ -1,0 +1,68 @@
+.achievements-section {
+  padding: 60px 20px;
+  background:transparent; /* Violet to pinkish */
+  color: #fff;
+  text-align: center;
+}
+
+.achievements-title {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.achievements-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  justify-items: center;
+}
+
+.achievement-card {
+   background: linear-gradient(135deg, #9883a2, #8d8790);
+  border: 2px solid #fff;
+  border-radius: 16px;
+  padding: 20px;
+  width: 100%;
+  max-width: 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.achievement-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+.achievement-name {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.achievement-rank {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+  color: #ffd700; /* gold */
+}
+
+.achievement-year {
+  font-size: 1rem;
+  color: #ccc;
+  margin-bottom: 15px;
+}
+
+.view-certificate-btn {
+  padding: 7px 11px;
+  background-color:transparent;
+  color: #fffcfc;
+  text-decoration: none;
+  font-weight: 400;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+}
+
+.view-certificate-btn:hover {
+    border: 1px solid #de25b0;
+  /* background-color: #e60073; */
+}

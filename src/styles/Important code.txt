@@ -1,0 +1,137 @@
+  background: linear-gradient(135deg, #670482, #424141, #b70a61);  
+
+//sevice id
+//  service_ugfy1xg
+//service_qudvla6
+
+
+  //projectcard.css 
+  .project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+.project-card {
+  border: 2px solid #d946ef; /* pink-violet border */
+  border-radius: 20px;
+  overflow: hidden;
+  background: transparent;
+  transition: transform 0.4s ease, box-shadow 0.4s ease, border-color 0.4s ease;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card:hover {
+  transform: scale(1.02);
+  border-color: #ec4899;
+  box-shadow: 0 10px 30px rgba(168, 85, 247, 0.4);
+}
+
+.project-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.project-info {
+  padding: 1rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-info h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.25rem;
+  color: #ec4899; /* pink */
+}
+
+.project-info p {
+  flex-grow: 1;
+  font-size: 0.95rem;
+  color: #e5e5e5;
+  margin-bottom: 0.75rem;
+}
+
+.tech-used {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.tech-used span {
+  background-color: #302b63;
+  padding: 0.3rem 0.7rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  color: #f9a8d4;
+  border: 1px solid #a855f7;
+}
+
+.project-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+  gap: 1rem;
+}
+
+.project-links a {
+  color: #a855f7;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.3s;
+}
+
+.project-links a:hover {
+  color: #ec4899;
+}
+
+
+
+.project-card {
+  background: transparent; /* No background */
+  border: 2px solid #d946ef; /* Pink-violet border */
+  border-radius: 16px;
+  overflow: hidden;
+  padding: 0;
+  color: #fffdfd; /* Light text */
+  transition: transform 0.4s ease, box-shadow 0.4s ease, border-color 0.4s ease;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.project-card:hover {
+  transform: scale(1.02);
+  border-color: #ec4899; /* Brighter pink border on hover */
+  box-shadow: 0 0 15px rgba(217, 70, 239, 0.4); /* Hover glow */
+}
+
+.project-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 2px solid #a855f7; /* Subtle image divider */
+}
+
+.project-info {
+  padding: 1rem;
+}
+
+.project-info h3 {
+  margin: 0 0 0.5rem;
+  font-size: 22px;
+  color: #ec4899; /* Pink heading */
+}
+
+.tech-used {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #f9a8d4; /* Light pink tech tag */
+}
