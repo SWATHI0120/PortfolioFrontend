@@ -1,20 +1,159 @@
-
-
-/* body {
+body {
   margin: 0;
   padding: 0;
   font-family: 'Segoe UI', sans-serif;
-  background-color: #f0f2f5;
-  color: #1c1c1c;
+  background: linear-gradient(135deg, #2e033b, #333232, #270531);
+  color: #f4f4f4;
   scroll-behavior: smooth;
-} */
+  min-height: 100vh;
+  overflow-x: hidden; /* ✅ Prevent horizontal scroll */
+}
 
+html {
+  overflow-x: hidden; /* ✅ Ensure full page doesn’t scroll horizontally */
+}
+
+* {
+  box-sizing: border-box; /* ✅ Avoid layout issues from padding/margin */
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.btn-primary,
+.btn-secondary {
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-secondary {
+  background-color: #fff;
+  border: 1px solid #007bff;
+  color: #007bff;
+}
+
+.btn-secondary:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  background-color: #942879;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 5px;
+}
+
+/* ========================= */
+/* 📱 Responsive Additions */
+/* ========================= */
+
+/* Tablet (≤ 1024px) */
+@media screen and (max-width: 1024px) {
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  .btn-primary,
+  .btn-secondary,
+  button[type="submit"] {
+    padding: 0.55rem 1rem;
+    font-size: 1rem;
+  }
+
+  input,
+  textarea {
+    padding: 0.65rem;
+    font-size: 0.95rem;
+  }
+}
+
+/* Mobile (≤ 600px) */
+@media screen and (max-width: 600px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  body {
+    padding: 0 10px;
+  }
+
+  .btn-primary,
+  .btn-secondary,
+  button[type="submit"] {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 0.95rem;
+  }
+
+  input,
+  textarea {
+    font-size: 0.9rem;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .project-grid {
+    display: grid;
+    grid-template-columns: 1fr !important; /* Ensure one column */
+    gap: 1rem;
+  }
+
+  .contact-content,
+  .contact-form {
+    flex-direction: column !important;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+
+
+
+
+/*  
 body {
   margin: 0;
   padding: 0;
   font-family: 'Segoe UI', sans-serif;
     background: linear-gradient(135deg, #2e033b, #333232,  #270531);
-  /* background: linear-gradient(135deg, #4d0860, #333232, #76046d); */
+ 
   color: #f4f4f4;
   scroll-behavior: smooth;
   min-height: 100vh;
@@ -70,9 +209,9 @@ input, textarea {
 }
 
 button[type="submit"] {
-  background-color: #007bff;
+  background-color: #8d3697;
   color: white;
   padding: 0.6rem 1.2rem;
   border: none;
   border-radius: 5px;
-}
+}  */
