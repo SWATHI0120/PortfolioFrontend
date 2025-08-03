@@ -8,7 +8,7 @@ import img4 from "../assets/Eventproject.png";
 
 const Projects = () => {
   return (
-    <section id="projects" className="section">
+    <section id="projects" className="section-projects">
       <h2>Projects</h2>
       <div className="project-grid">
         <ProjectCard
