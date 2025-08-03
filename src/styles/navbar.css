@@ -1,11 +1,83 @@
+.navbar {
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  top: 0;
+  z-index: 1000;
+  overflow-x: hidden;
+}
 
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #f1f4f7;
+}
+
+.gradient-text {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 27px;
+  background: linear-gradient(90deg, #ff41bc, #b54cf2, #b54cf2, #ff41bc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  font-size: medium;
+    margin-left: -35px;
+}
+
+.nav-links li a {
+  color: #f4f2f2;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #eef3f8;
+}
+
+/* 🔽 Responsive Navbar for small screens */
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+
+  .nav-links {
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .nav-links li a {
+    font-size: 1rem;
+    padding: 0.5rem 0;
+    display: block;
+    width: 100%;
+  }
+}
+
+
+
+/* 
 .navbar {
  
   padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* position: sticky; */
+
   top: 0;
   z-index: 1000;
 }
@@ -23,7 +95,7 @@
   background: linear-gradient(90deg, #ff41bc, #b54cf2, #b54cf2, #ff41bc);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-clip: text; /* For modern browsers */
+  background-clip: text; 
   color: transparent;
 }
 
@@ -42,4 +114,4 @@
 
 .nav-links li a:hover {
   color: #eef3f8;
-}
+} */
