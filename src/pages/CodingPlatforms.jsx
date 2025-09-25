@@ -21,7 +21,7 @@ const codingPlatforms = [
   {
     name: 'HackerRank',
     icon: 'https://upload.wikimedia.org/wikipedia/commons/6/65/HackerRank_logo.png',
-    problemsSolved: 100,
+    problemsSolved: 64,
     rank: 'Gold',
     batch: '2025',
     link: 'https://www.hackerrank.com/profile/swathi_n2023it',
@@ -38,7 +38,7 @@ const codingPlatforms = [
     name: 'SkillRack',
     icon: 'https://cdn.skillrack.com/img/logo.gif',
    
-    problemsSolved: 334,
+    problemsSolved: 345,
     rank: 'Level 6',
     batch: '2025',
     link: 'https://www.skillrack.com/faces/resume.xhtml?id=484664&key=a61fcf01922240b7667029f67760d6ed66016335',
